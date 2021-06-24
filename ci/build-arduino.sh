@@ -14,6 +14,9 @@ echo "Printing pwd"
 pwd
 echo "listing files---"
 ls -Rlh
-#cd $HOME/work/1/s/arduino_sketch_devops
+cd $HOME/Documents/myagent/_work/1/s/test/
 arduino-cli compile -b Seeeduino:samd:zero -e
+arduino-cli upload -p /dev/ttyACM0 -b Seeeduino:samd:zero
+python SerialRead.py
+
 
