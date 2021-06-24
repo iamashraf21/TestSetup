@@ -13,6 +13,7 @@ jobs:
 
   - script: ./build-arduino.sh
     displayName: 'Run Bash Script'
+    workingDirectory: '$(Build.SourcesDirectory)/TestSetup/ci'
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'NUnit'
