@@ -15,6 +15,6 @@ whoami
 cd $HOME/Documents/myagent/_work/1/s/test/
 arduino-cli compile -b Seeeduino:samd:zero -e
 arduino-cli upload -p /dev/ttyACM0 -b Seeeduino:samd:zero
-#python SerialRead.py
+python SerialRead.py
 
 
