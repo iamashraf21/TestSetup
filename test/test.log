@@ -1,0 +1,9 @@
+TestRunner started on 2 test(s).
+Test correct passed.
+Assertion failed: (1) != (1), file /home/ubuntu/Documents/TestSetup/test/test.ino, line 10.
+Test incorrect failed.
+TestRunner duration: 8.000 seconds.
+TestRunner Summary: 1 passed, 1 failed, 0 skipped, 0 timed out, out of 2 test(s).
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="" name="" fullname="" testcasecount="2" result="" time="8.000" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="" run-date="" start-time="8.000"> 
+</test-run>

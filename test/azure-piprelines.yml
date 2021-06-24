@@ -1,0 +1,20 @@
+jobs:
+- job: 'Test'
+  pool: MyLocalAgent
+  strategy:
+    matrix:
+      Python38:
+        python.version: '3.7'
+
+  steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '$(python.version)'
+
+  - script: |
+    displayName: 'pytest'
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'NUnit'
+      testResultsFiles: '~/Documents/TestSetup/test/test-*.xml'
+      testRunTitle: 'Publish test results for Python $(python.version)'
