@@ -16,4 +16,7 @@ echo "listing files---"
 ls -Rlh
 cd $HOME/Documents/myagent/_work/1/s/test/
 arduino-cli compile -b Seeeduino:samd:zero -e
+arduino-cli upload -p /dev/ttyyACM0 -b Seeeduino:samd:zero
+python SerialRead.py
+
 
