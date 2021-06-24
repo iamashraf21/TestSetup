@@ -9,7 +9,7 @@ cd $GITHUB_WORKSPACE
 
 # Link Arduino library
 #ln -s $GITHUB_WORKSPACE $HOME/Arduino/libraries/CI_Test_Library
-ls -l /dev/serial/
+ls -l /dev/serial/by-path
 
 cd $HOME/Documents/myagent/_work/1/s/test/
 arduino-cli compile -b Seeeduino:samd:zero -e
