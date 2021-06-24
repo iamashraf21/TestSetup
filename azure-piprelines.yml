@@ -11,8 +11,8 @@ jobs:
     inputs:
       versionSpec: '$(python.version)'
 
-  - script: |
-    displayName: 'pytest'
+  - script: ./build-arduino.sh
+    displayName: 'Run Bash Script'
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'NUnit'
