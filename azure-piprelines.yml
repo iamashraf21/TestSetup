@@ -12,7 +12,7 @@ resources:
     trigger:
       - main
 
-pool: MyLocalAgent
+pool: MyLocalPool
 
 steps:
   - checkout: TestSetup
