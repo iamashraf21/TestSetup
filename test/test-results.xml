@@ -96,15 +96,5 @@
         <test-case id="1028" name="MethodWithParameters(9,11)" fullname="NUnit.Tests.FixtureWithTestCases.MethodWithParameters(9,11)" result="Passed" time="0.000" asserts="1" />
       </test-suite>
     </test-suite>
-    <test-suite type="TestFixture" id="1016" name="IgnoredFixture" fullname="NUnit.Tests.IgnoredFixture" testcasecount="3" result="Skipped" label="Ignored" time="0.000" total="0" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
-      <properties>
-        <property name="_SKIPREASON" value="" />
-      </properties>
-      <reason>
-        <message><![CDATA[]]></message>
-      </reason>
-    </test-suite>
-    <test-suite type="ParameterizedFixture" id="1029" name="ParameterizedFixture" fullname="NUnit.Tests.ParameterizedFixture" testcasecount="4" result="Passed" time="0.007" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
-    </test-suite>
   </test-suite>
 </test-run>
