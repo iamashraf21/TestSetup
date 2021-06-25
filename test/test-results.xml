@@ -68,7 +68,7 @@
           <message><![CDATA[No arguments were provided]]></message>
         </reason>
       </test-case>
-      <test-case id="1011" name="TestWithException" fullname="NUnit.Tests.Assemblies.MockTestFixture.TestWithException" result="Failed" label="Error" time="0.002" asserts="0">
+      <test-case id="1011" name="TestWithException" fullname="NUnit.Tests.Assemblies.MockTestFixture.TestWithException" result="Passed" label="Error" time="0.002" asserts="0">
         <failure>
           <message><![CDATA[System.ApplicationException : Intentional Exception]]></message>
           <stack-trace><![CDATA[   at NUnit.Tests.Assemblies.MockTestFixture.MethodThrowsException() in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\mock-assembly\MockAssembly.cs:line 158
