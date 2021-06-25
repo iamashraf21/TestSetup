@@ -90,11 +90,5 @@
         <message><![CDATA[No suitable constructor was found]]></message>
       </reason>
     </test-suite>
-    <test-suite type="TestFixture" id="1025" name="FixtureWithTestCases" fullname="NUnit.Tests.FixtureWithTestCases" testcasecount="2" result="Passed" time="0.010" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="2">
-      <test-suite type="ParameterizedMethod" id="1026" name="MethodWithParameters" fullname="NUnit.Tests.FixtureWithTestCases.MethodWithParameters" testcasecount="2" result="Passed" time="0.009" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="2">
-        <test-case id="1027" name="MethodWithParameters(2,2)" fullname="NUnit.Tests.FixtureWithTestCases.MethodWithParameters(2,2)" result="Passed" time="0.006" asserts="1" />
-        <test-case id="1028" name="MethodWithParameters(9,11)" fullname="NUnit.Tests.FixtureWithTestCases.MethodWithParameters(9,11)" result="Passed" time="0.000" asserts="1" />
-      </test-suite>
-    </test-suite>
   </test-suite>
 </test-run>
