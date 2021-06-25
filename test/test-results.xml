@@ -105,17 +105,6 @@
       </reason>
     </test-suite>
     <test-suite type="ParameterizedFixture" id="1029" name="ParameterizedFixture" fullname="NUnit.Tests.ParameterizedFixture" testcasecount="4" result="Passed" time="0.007" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
-      <test-suite type="TestFixture" id="1030" name="ParameterizedFixture(42)" fullname="NUnit.Tests.ParameterizedFixture(42)" testcasecount="2" result="Passed" time="0.003" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
-        <test-case id="1031" name="Test1" fullname="NUnit.Tests.ParameterizedFixture(42).Test1" result="Passed" time="0.000" asserts="0" />
-        <test-case id="1032" name="Test2" fullname="NUnit.Tests.ParameterizedFixture(42).Test2" result="Passed" time="0.000" asserts="0" />
-      </test-suite>
-      <test-suite type="TestFixture" id="1033" name="ParameterizedFixture(5)" fullname="NUnit.Tests.ParameterizedFixture(5)" testcasecount="2" result="Passed" time="0.002" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
-        <test-case id="1034" name="Test1" fullname="NUnit.Tests.ParameterizedFixture(5).Test1" result="Passed" time="0.000" asserts="0" />
-        <test-case id="1035" name="Test2" fullname="NUnit.Tests.ParameterizedFixture(5).Test2" result="Passed" time="0.000" asserts="0" />
-      </test-suite>
-    </test-suite>
-    <test-suite type="TestFixture" id="1012" name="OneTestCase" fullname="NUnit.Tests.Singletons.OneTestCase" testcasecount="1" result="Passed" time="0.001" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
-      <test-case id="1013" name="TestCase" fullname="NUnit.Tests.Singletons.OneTestCase.TestCase" result="Passed" time="0.000" asserts="0" />
     </test-suite>
   </test-suite>
 </test-run>
