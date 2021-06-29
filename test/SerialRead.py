@@ -18,7 +18,7 @@ while True:
 f1.close()
 f2.close()
 for i in range(0,3):
-	os.system("./test.sh test-results.xml")
+	os.system("printf '%s\n' '1m6' 'wq' | ed -s test-results.xml")
 
 formatter = xmlformatter.Formatter(indent="1", indent_char="\t", encoding_output="UTF-8", preserve=["literal"])
 xmldata = formatter.format_file("test-results.xml")
