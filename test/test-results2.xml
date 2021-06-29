@@ -1,7 +1,0 @@
-<test-case id="" name="Custom" fullname="" result="Passed" time="" asserts="0" /> 
-<test-case id="" name="correct" fullname="" result="Passed" time="" asserts="0" /> 
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-case id="" name="incorrect" fullname="" result="Failed" time="" asserts="0" /> 
-<test-run id="" name="" fullname="" testcasecount="3" result="" time="6.002" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="" run-date="" start-time="6.002"> 
-<test-suite type="Assembly" id="1036" name="mock-assembly.dll" fullname="" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2"> 
-</test-run>

@@ -22,5 +22,5 @@ steps:
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'NUnit'
-      testResultsFiles: '~/Documents/TestSetup/test/test-results.xml'
+      testResultsFiles: '$(Build.SourcesDirectory)/test/test-results.xml'
       testRunTitle: 'Publish test results'
