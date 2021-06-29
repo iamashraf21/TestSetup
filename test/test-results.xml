@@ -5,4 +5,8 @@
 		<test-case asserts="0" fullname="Unit.Tests.Assemblies.AUnit.FailingTest" id="" name="correct" result="Passed" time=""></test-case>
 		<test-case asserts="0" fullname="Unit.Tests.Assemblies.AUnit.FailingTest" id="" name="incorrect" result="Failed" time=""></test-case>
 	</test-suite>
+<<<<<<< HEAD
 </test-run>
+=======
+</test-run>
+>>>>>>> 9ec82ff88880351a32fcacb3015ca367535ba73e
