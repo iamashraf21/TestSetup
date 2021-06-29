@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<test-run id="2" name="AUnit tests" fullname="" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2" run-date="2011-07-26" start-time="11:34:27">
-   <test-suite type="Assembly" id="1036" name="AUnit" fullname="" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
-      <test-case id="1005" name="FailingTest" fullname="NUnit.Tests.Assemblies.AUnit.FailingTest" result="Failed" time="0.023" asserts="0">
-         <failure>
-            <message><![CDATA[Intentional failure]]></message>
-            <stack-trace><![CDATA[at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 142
-    at NUnit.Framework.Assert.Fail(String message) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 152
-    at NUnit.Tests.Assemblies.MockTestFixture.FailingTest() in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\mock-assembly\MockAssembly.cs:line 121]]></stack-trace>
-         </failure>
-      </test-case>
-      <test-case id="1010" name="InconclusiveTest" fullname="NUnit.Tests.Assemblies.AUnit.InconclusiveTest" result="Inconclusive" time="0.001" asserts="0" />
-      <test-case id="1006" name="TestWithManyProperties" fullname="NUnit.Tests.Assemblies.AUnit.TestWithManyProperties" result="Passed" time="0.000" asserts="0" />
+<test-run id="" name="" fullname="" testcasecount="3" result="" time="6.002" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="" run-date="" start-time="6.002">
+   <test-suite type="Assembly" id="1036" name="mock-assembly.dll" fullname="" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
+      <test-case id="" name="Custom" fullname="Unit.Tests.Assemblies.AUnit.FailingTest" result="Passed" time="" asserts="0" />
+      <test-case id="" name="correct" fullname="Unit.Tests.Assemblies.AUnit.FailingTest" result="Passed" time="" asserts="0" />
+      <test-case id="" name="incorrect" fullname="Unit.Tests.Assemblies.AUnit.FailingTest" result="Failed" time="" asserts="0" />
    </test-suite>
 </test-run>
