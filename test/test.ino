@@ -10,6 +10,11 @@ test(incorrect) {
   assertNotEqual(x, 1);
 }
 
+test(Custom) {
+  int x = 4;
+  assertEqual(x, 4);
+}
+
 //----------------------------------------------------------------------------
 // setup() and loop()
 //----------------------------------------------------------------------------
@@ -22,5 +27,5 @@ void setup() {
 
 void loop() {
   aunit::TestRunner::run();
-  delay(1000);
+  delay(500);
 }
