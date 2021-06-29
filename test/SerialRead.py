@@ -17,12 +17,13 @@ while True:
 
 f1.close()
 f2.close()
-for i in range(0,3):
+testcount = 3
+for i in range(0,testcount):
 	os.system("printf '%s\n' '1m6' 'wq' | ed -s test-results.xml")
 
 formatter = xmlformatter.Formatter(indent="1", indent_char="\t", encoding_output="UTF-8", preserve=["literal"])
 xmldata = formatter.format_file("test-results.xml")
-xmldata.decode() 
+#xmldata.decode() 
 f3 = open('test-results.xml', 'wb+')
 f3.write(xmldata)
 f3.close()
